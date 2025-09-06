@@ -22,10 +22,12 @@ function WhatsApp(props) {
                 <div className="image__container" style={{ paddingLeft: "10px" }}>
                     <img src={props.image} alt={props.name} />
                 </div>
+
                 <div>
                     <h1>{props.name}</h1>
                     <p>{props.message}</p>
                 </div>
+                
                 <div>
                     <p style={{color:"grey"}}>{props.time}</p>
                     <i className="fa-solid fa-star" style={{color: "#79d657"}}></i>
