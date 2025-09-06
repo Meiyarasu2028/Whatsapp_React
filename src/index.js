@@ -27,8 +27,8 @@ function WhatsApp(props) {
                     <h1>{props.name}</h1>
                     <p>{props.message}</p>
                 </div>
-                
-                <div>
+
+                <div className="fav_container">
                     <p style={{color:"grey"}}>{props.time}</p>
                     <i className="fa-solid fa-star" style={{color: "#79d657"}}></i>
                 </div>
