@@ -47,7 +47,7 @@
     border: 2px solid white;
     display: flex;
     align-items: center;
-    gap: 50px;
+    justify-content: space-around;
     height: fit-content;
 }
 
@@ -72,7 +72,8 @@
 }
 
  .search__container{
-        width: 100%;
+        width: 98%;
+        
     }
     
 
