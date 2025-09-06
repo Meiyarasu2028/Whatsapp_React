@@ -65,11 +65,16 @@
     }
 
     .list{
-        width: 80%;
+        width: 100%;
         font-size: 14px;
     }
     
 }
+
+ .search__container{
+        width: 100%;
+    }
+    
 
 @media screen and (max-width:450px) {
     .root{
@@ -80,6 +85,10 @@
         width: 90%;
         font-size: 10px;
         
+    }
+
+    .search__container{
+        width: 90%;
     }
     
 }
